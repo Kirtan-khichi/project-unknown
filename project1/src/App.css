@@ -1,0 +1,70 @@
+/* App.css */
+.navbar {
+  padding: 1rem;
+}
+
+a.navbar-brand {
+  font-family: serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-text a {
+  background-color: white;
+  color: #000; /* Black text for contrast */
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-text a:hover {
+  background-color: #f1f1f1; /* Light grey on hover */
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Ensuring the navbar has a clean and dark background */
+.bg-dark {
+  background-color: #343a40 !important;
+}
+/* Hide scrollbars on the body */
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Ensure the navbar and main content don't cause horizontal overflow */
+.navbar, .container, .page1 {
+  overflow: hidden;
+}
+
+.page1 {
+  background: #000;
+  color: white;
+  padding: 90px;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: auto; /* Just to clarify */
+}
+
+.mainHeading {
+  font-family: serif; 
+  font-size: 8vw; 
+  font-weight: 700;
+  text-align: center; 
+  line-height: 1.2; 
+  word-spacing: 0.1em;
+}
+
+.mainHeading span {
+  display: block; /* Forces each span onto a new line */
+}

@@ -1,0 +1,30 @@
+{
+    "profile":{
+        "customerName":"Narendra Singh",
+        "customerContactEmail":"ns952140@gmail.com",
+        "customerContactNumner":"+919521402842",
+        "Address":{
+            "Default Address":{
+                "City":"Lucknow",
+                "State":"UttarPradesh",
+                "Country":"India",
+                "Pincode":"226010"
+            },
+            "Address1":{
+                "City":"Jodhpur",
+                "State":"Rajasthan",
+                "Country":"India",
+                "Pincode":342025
+            }
+          },
+          "CurrentLocation":{
+            "City":"Lucknow",
+            "State":"UttarPradesh",
+            "Country":"India"
+          },
+          "RecentSearch":["smartphone under 1599","smartwatches "]
+
+          }
+        }
+        
+    
