@@ -1,16 +1,32 @@
-
 import './App.css';
-
-import CustomNavbar from './Component/navbar';
-import Header from './Component/firstPage';
+import UncontrolledExample from './assets/Component/carousels';
+import CustomNavbar from './assets/Component/navbar';
+import Header from './assets/Component/firstPage';
+import WebDesignerPortfolio from './assets/Component/secondPage';
+import GroupExample from './assets/Component/cards';
+import FAQs from './assets/Component/faqs';
+import Footer from './assets/Component/aboveFooter';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PlaintextExample from './assets/Pages/contact';
 
 function App() {
-
   return (
-    <>
-      <CustomNavbar />
-      <Header/>
-    </>
+    <Router>
+        <CustomNavbar />
+      <Routes>
+        <Route path="/contact" element={<PlaintextExample />} />
+        <Route path="/" element={
+          <>
+            <Header />
+            <WebDesignerPortfolio />
+            <GroupExample />
+            <UncontrolledExample />
+            <FAQs />
+            <Footer />
+          </>
+        } />
+      </Routes>
+    </Router>
   );
 }
 
