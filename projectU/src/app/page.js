@@ -5,21 +5,18 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
+        <h1>AI-Powered Incident Triage and Response System</h1>
+        <p>
+          This system automates the process of managing incidents in real-time. 
+          Using AI, it categorizes, prioritizes, and assigns incidents based on 
+          severity and context. The platform provides dynamic responses, 
+          generates incident playbooks, and offers predictive insights to 
+          resolve issues faster.
+        </p>
+        <p>
+          Ideal for IT operations, customer support, cybersecurity, or any 
+          environment where incidents need swift handling and resolution.
+        </p>
         <div className={styles.ctas}>
           <a
             className={styles.primary}
